@@ -1,0 +1,9 @@
+# Normalize line endings across platforms 
+* text=auto
+
+# Rendered Quarto output shouldn't count toward the repo's language
+# stats or show up as a "diff" in PRs
+salmon_case_study.html linguist-generated=true
+
+# Publish to GitHub Pages under index.html instead
+index.html linguist-generated=true
